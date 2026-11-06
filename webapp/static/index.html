@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#000000">
+<title>Spider VPN</title>
+<link rel="stylesheet" href="/static/app.css?v=3">
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><filter id="lens" x="0" y="0" width="64" height="64" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feImage href="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2264%22%20height%3D%2264%22%20viewBox%3D%220%200%2064%2064%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22r%22%20x1%3D%220%22%20x2%3D%221%22%20y1%3D%220%22%20y2%3D%220%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23000%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23f00%22/%3E%3C/linearGradient%3E%3ClinearGradient%20id%3D%22b%22%20x1%3D%220%22%20x2%3D%220%22%20y1%3D%220%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23000%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%2300f%22/%3E%3C/linearGradient%3E%3Cfilter%20id%3D%22bl%22%3E%3CfeGaussianBlur%20stdDeviation%3D%225%22/%3E%3C/filter%3E%3C/defs%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20fill%3D%22%23808080%22/%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20fill%3D%22url%28%23r%29%22/%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20fill%3D%22url%28%23b%29%22%20style%3D%22mix-blend-mode%3Ascreen%22/%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%2221%22%20fill%3D%22%23808080%22%20filter%3D%22url%28%23bl%29%22/%3E%3C/svg%3E" x="0" y="0" width="64" height="64" result="map"/><feDisplacementMap in="SourceGraphic" in2="map" scale="48" xChannelSelector="R" yChannelSelector="B"/></filter></svg>
+<div id="offline" class="offline" hidden>اتصال اینترنت قطع است…</div>
+<header class="top" id="top"></header>
+<main id="view" aria-live="polite"></main>
+<nav class="nav" id="nav" style="--i:0">
+  <div class="bubble"><i></i></div>
+  <a href="#/" data-r="home"><svg viewBox="0 0 24 24"><path d="M3.5 11.2 12 3.8l8.5 7.4V19a1.5 1.5 0 0 1-1.5 1.5h-4.2v-5.3H9.2v5.3H5A1.5 1.5 0 0 1 3.5 19z"/></svg><span>خانه</span></a>
+  <a href="#/services" data-r="services"><svg viewBox="0 0 24 24"><path d="M12 2.8 19.5 6v5.6c0 4.6-3.2 8-7.5 9.6-4.3-1.600-7.500-5-7.500-9.600V6z"/><path d="m9 12 2.2 2.200L15.200 10"/></svg><span>سرویس‌ها</span></a>
+  <a href="#/account" data-r="account"><svg viewBox="0 0 24 24"><circle cx="12" cy="8.200" r="3.800"/><path d="M4.500 20.500c.6-3.800 3.800-5.800 7.500-5.800s6.900 2 7.500 5.800"/></svg><span>حساب</span></a>
+  <a href="#/shop" data-r="shop"><svg viewBox="0 0 24 24"><path d="M6.500 8.500h11l1 11h-13z"/><path d="M9 8.500V7a3 3 0 0 1 6 0v1.500"/></svg><span>خرید</span></a>
+  <a href="#/support" data-r="support"><svg viewBox="0 0 24 24"><path d="M4.500 5.500h15a1 1 0 0 1 1 1v9.500a1 1 0 0 1-1 1H10l-4.500 3.500V17h-1a1 1 0 0 1-1-1V6.500a1 1 0 0 1 1-1z"/></svg><span>پشتیبانی</span></a>
+</nav>
+<div id="sheet-root"></div>
+<div id="toast" class="toast" role="status"></div>
+<script src="/static/app.js?v=3"></script>
+</body>
+</html>
